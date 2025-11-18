@@ -1,0 +1,14 @@
+name: TagGame
+main: com.chigayuki.minecraft.tagGame.TagGame
+version: 1.0.0
+api-version: '1.21'
+author: chikina-dev
+commands:
+  tag:
+    description: Tag game commands
+    usage: /tag start
+    permission: tag.start
+permissions:
+  tag.start:
+    default: op
+
